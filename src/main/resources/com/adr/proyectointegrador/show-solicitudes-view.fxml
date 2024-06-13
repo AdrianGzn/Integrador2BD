@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="656.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.adr.proyectointegrador.controllers.ShowSolicitudesController">
+   <children>
+      <TableView fx:id="solicitudesTable" layoutX="22.0" layoutY="100.0" prefHeight="200.0" prefWidth="613.0">
+        <columns>
+          <TableColumn fx:id="idColumna" prefWidth="50.0" text="ID" />
+          <TableColumn fx:id="matriculaColumna" prefWidth="71.0" text="Matricula" />
+            <TableColumn fx:id="tipoColumna" prefWidth="91.0" text="Tipo" />
+            <TableColumn fx:id="descripcionColumna" prefWidth="116.0" text="Descripción" />
+            <TableColumn fx:id="colorColumna" prefWidth="69.0" text="Color" />
+            <TableColumn fx:id="fechaColumna" prefWidth="78.0" text="Fecha" />
+            <TableColumn fx:id="aulaColumna" prefWidth="54.0" text="Aula" />
+            <TableColumn fx:id="estatusColumna" prefWidth="83.0" text="Estatus" />
+        </columns>
+      </TableView>
+      <Label layoutX="257.0" layoutY="48.0" text="Lista de solicitudes general" />
+      <Button fx:id="cerrarButton" layoutX="302.0" layoutY="331.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedCerrar" text="Cerrar" />
+   </children>
+</AnchorPane>

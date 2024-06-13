@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.adr.proyectointegrador.controllers.AlumnonController">
+   <children>
+      <Button fx:id="showReportesButton" layoutX="332.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedShowReportes" text="Ver reportes generales" />
+      <Button fx:id="generateSolicitudButton" layoutX="133.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedGenerateSolicitud" prefHeight="25.0" prefWidth="148.0" text="Generar solicitud" />
+      <Button fx:id="generateReporteButton" layoutX="332.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedGenerateReporte" prefHeight="25.0" prefWidth="136.0" text="Generar reporte" />
+      <Button fx:id="showSolicitudesButton" layoutX="133.0" layoutY="139.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedShowSolicitudes" text="Ver solicitudes generales" />
+      <Button fx:id="showMyReportesButton" layoutX="332.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedShowMyReportes" prefHeight="25.0" prefWidth="136.0" text="Ver mis reportes" />
+      <Button fx:id="showMySolicitudesButton" layoutX="133.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedShowMySolicitudes" prefHeight="25.0" prefWidth="148.0" text="Ver mis solicitudes" />
+      <Button fx:id="deleteMyReporteButton" layoutX="332.0" layoutY="236.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedDeleteMyReporte" prefHeight="25.0" prefWidth="136.0" text="Eliminar mi reporte" />
+      <Button fx:id="deleteMySolicitudButton" layoutX="133.0" layoutY="236.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedDeleteMysolicitud" prefHeight="25.0" prefWidth="148.0" text="Eliminar mi solicitud" />
+      <Label fx:id="miLabel" layoutX="256.0" layoutY="61.0" text="Vista del alumno" />
+      <Button fx:id="cerrarButton" layoutX="275.0" layoutY="322.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedCerrar" text="Cerrar sesión" />
+   </children>
+</AnchorPane>

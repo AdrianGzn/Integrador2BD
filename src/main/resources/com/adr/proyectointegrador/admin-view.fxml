@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.adr.proyectointegrador.controllers.AdminController">
+   <children>
+      <Label layoutX="239.0" layoutY="78.0" text="Vista del administrador" />
+      <Button fx:id="verSolicitudesButton" layoutX="112.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedVerSolicitudes" prefHeight="25.0" prefWidth="166.0" text="Ver solicitudes" />
+      <Button fx:id="verReportesButton" layoutX="321.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedVerReportes" prefHeight="25.0" prefWidth="160.0" text="Ver reportes" />
+      <Button fx:id="eliminarSolicitudButton" layoutX="112.0" layoutY="187.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedEliminarSolicitud" prefHeight="25.0" prefWidth="166.0" text="Eliminar solicitud" />
+      <Button fx:id="eliminarReporteButton" layoutX="321.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedButtonEliminarReporte" prefHeight="25.0" prefWidth="160.0" text="Eliminar reporte" />
+      <Button fx:id="statusSolicitudButton" layoutX="112.0" layoutY="224.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedStatusSolicitud" text="Cambiar estatus de solicitud" />
+      <Button fx:id="statusReporteButton" layoutX="321.0" layoutY="225.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedStatusReporte" text="Cambiar estatus de reporte" />
+      <Button fx:id="cerrarButton" layoutX="274.0" layoutY="296.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedCerrarButton" text="Cerrar" />
+   </children>
+</AnchorPane>
